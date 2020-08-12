@@ -1,12 +1,12 @@
 import React from 'react'
-import Title from './Title'
+import Heading from './Heading'
 import Description from './Description'
 import CustomPanel from './CustomPanel'
 
 const Home = () => {
     return (
         <div className='flex-center-container'>
-            <Title />
+            <Heading text={['League of Legends', <br />, 'Strat Roulette']}/>
             <Description />
             <CustomPanel />
         </div>

@@ -5,10 +5,10 @@ import Game from './Game'
 
 const App = () => {
     return (
-    <div>
-    <Game />
-    <Footer />
-    </div>
+        <div>
+            <Game />
+            <Footer />
+        </div>
     )
 }
 
